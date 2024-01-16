@@ -1,3 +1,4 @@
+#Create the superstore table
 CREATE TABLE superstore (
     item_id INTEGER PRIMARY KEY,
     item_name TEXT,
@@ -7,6 +8,7 @@ CREATE TABLE superstore (
     average_rating DECIMAL(3, 2)
 );
 
+#Populate table with data
 INSERT INTO superstore (item_id, item_name, category, price, stock_quantity, average_rating)
 VALUES
     (1, 'Stainless Steel Cookware Set', 'Kitchen Supplies', 89.99, 50, 4.6),
